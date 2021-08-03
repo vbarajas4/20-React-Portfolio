@@ -6,10 +6,10 @@ function About() {
         width: '100%',
         display: 'flex',
         flexWrap: 'wrap',
-        justifyContent: 'space-around'
+        justifyContent: 'space-around',
+        backgroundColor: '#d8e1ff'
     }
     const PictureStyle = {
-        //display: 'flex',
         height: '250px', 
         width: '250px',  
         borderRadius: '5px',
@@ -24,9 +24,14 @@ function About() {
          fontSize: '20px', 
          padding: '90px'
     }
+    const h1 = {
+        fontSize: '50px',
+        marginTop: '20px'
+    }
     
     return (   
         <section style={AboutPage}>
+            <h1 style={h1}>About Me</h1>
         <div className="container-content">
             <div className="profile-picture" style={PictureStyle}>
                 <img src={require("../../assets/headshot.png").default} alt='profile'/>
