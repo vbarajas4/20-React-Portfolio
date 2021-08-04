@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 export default function Nav() {
     
   
@@ -12,16 +12,16 @@ export default function Nav() {
   
             <ul className="nav justify-content-end" >
               <li className="nav-item" >
-                <a className="nav-link active text-dark h5" aria-current="page" href="/">About</a>
+                <Link className="nav-link active text-dark h5" aria-current="page" to="/">About</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark h5" href="/Portfolio">Portfolio</a>
+                <Link className="nav-link text-dark h5" to="/portfolio">Portfolio</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark h5" href="/Contact">Contact</a>
+                <Link className="nav-link text-dark h5" to="/contact">Contact</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark h5" href="/Resume">Resume</a>
+                <Link className="nav-link text-dark h5" to="/resume">Resume</Link>
               </li>
 
             </ul>
