@@ -1,11 +1,16 @@
 import React from 'react';
 
-   const bodyStyle = {
-      backgroundColor: '#a7abdd'
+   const contactStyle = {
+      backgroundColor: '#d8e1ff',
+      width: '100%',
+      
+   
    }
+
 export default function Contact() {
     return (
-       <body style = { bodyStyle }>
+
+   <section style = { contactStyle }>
       <div style = {{ marginLeft: '30px', marginRight: '30px', backgroundColor: '#d8e1ff', padding: '15px 15px 15px 15px' }}>
         <h1>Contact</h1>
       
@@ -27,7 +32,7 @@ export default function Contact() {
            <button type="submit" className="btn btn-primary">Submit</button>
         </form>
       </div> 
-      </body> 
+   </section> 
     );
   }
   
