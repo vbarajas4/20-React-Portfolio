@@ -2,11 +2,23 @@ import React from 'react';
 
 export default function Resume() {
 
-    return (
-        <div>
-            <h1>Resume</h1>
+    const h1 = {
+        fontSize: '50px',
+        padding: '15px 15px 15px 15px'
+    }
 
+    const divStyle = {
+        display: 'flex',
+        justifyContent: 'center',
+        alignText: 'center',
+        backgroundColor: '#a7abdd'
+    }
+
+    return (
+        <div style = { divStyle }>
+            
             <div>
+                <h1 style={ h1 }>Resume</h1>
                 <p>Download my <a href="../../assets/VM-Resume-ATS.pdf">Resume</a></p>
 
                 <h2>Front-End Proficiencies</h2>

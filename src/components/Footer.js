@@ -1,20 +1,20 @@
 import React from "react";
-import "./Footer.css";
+//import "./Footer.css";
 
 function Footer() {
 
   return (
 
-    <footer class="page-footer fixed-bottom font-small">
+    <footer class="page-footer fixed-bottom font-small" style={{backgroundColor: '#5d7ce9'}}>
 
-      <div class="container">
+      <div class="container" >
         <ul class="list-unstyled list-inline text-center">
           <li class="list-inline-item">
             <a
               class="btn-floating btn-fb mx-1"
               href="https://github.com/vbarajas4"
             >
-              <i class="fab fa-github"> </i>
+              <i class="fab fa-github" style={{color: 'black'}}> </i>
             </a>
           </li>
           <li class="list-inline-item">
@@ -22,7 +22,7 @@ function Footer() {
               class="btn-floating btn-li mx-1"
               href="https://www.linkedin.com/in/vanessa-maldonado-90668110a/"
             >
-              <i class="fab fa-linkedin-in"> </i>
+              <i class="fab fa-linkedin-in" style={{color: 'black'}}> </i>
             </a>
           </li>
         </ul>
@@ -30,7 +30,7 @@ function Footer() {
 
       <div class="footer-copyright text-center">
         © 2021 Copyright:
-        <a href="https://github.com/vbarajas4/React-Portfolio">
+        <a href="https://github.com/vbarajas4/React-Portfolio" style={{color: 'black'}}>
           {" "}
           Vanessa Maldonado
         </a>

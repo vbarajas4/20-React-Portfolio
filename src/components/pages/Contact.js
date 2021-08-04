@@ -1,7 +1,11 @@
 import React from 'react';
 
+   const bodyStyle = {
+      backgroundColor: '#a7abdd'
+   }
 export default function Contact() {
     return (
+       <body style = { bodyStyle }>
       <div style = {{ marginLeft: '30px', marginRight: '30px', backgroundColor: '#d8e1ff', padding: '15px 15px 15px 15px' }}>
         <h1>Contact</h1>
       
@@ -22,7 +26,8 @@ export default function Contact() {
    
            <button type="submit" className="btn btn-primary">Submit</button>
         </form>
-      </div>  
+      </div> 
+      </body> 
     );
   }
   
