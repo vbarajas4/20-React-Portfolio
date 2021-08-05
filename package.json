@@ -1,7 +1,7 @@
 {
   "name": "20-react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://vbarajas4.github.io/",
+  "homepage": "https://vbarajas4.github.io/20-react-portfolio/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
