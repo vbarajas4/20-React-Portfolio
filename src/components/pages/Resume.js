@@ -11,7 +11,7 @@ export default function Resume() {
         display: 'flex',
         justifyContent: 'center',
         alignText: 'center',
-        backgroundColor: '#a7abdd'
+        backgroundColor: '#d8e1ff'
     }
 
     return (

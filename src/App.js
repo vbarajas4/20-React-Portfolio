@@ -9,9 +9,13 @@ import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
 //import Wrapper from './components/Wrapper';
 
+  
 function App() {
+
+  document.body.style.backgroundColor = '#d8e1ff';
+  
   return (
-    <div>
+    <div id='app'>
       <Nav />
       <Route path='/' exact><About/></Route> 
       <Route path='/portfolio' exact><Portfolio/></Route>
