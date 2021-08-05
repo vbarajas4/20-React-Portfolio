@@ -17,12 +17,12 @@ function App() {
   return (
     <div id='app'>
       <Nav />
-      <BrowserRouter>
+      <BrowserRouter basename={ process.env.PUBLIC_URL }>
       <Switch>
       <Route path='/' exact><About/></Route> 
-      <Route path='/portfolio' exact><Portfolio/></Route>
-      <Route path='/contact' exact><Contact/></Route>
-      <Route path='/resume' exact><Resume/></Route>
+      <Route path='/portfolio' ><Portfolio/></Route>
+      <Route path='/contact' ><Contact/></Route>
+      <Route path='/resume'><Resume/></Route>
       <Route component = { About }></Route>
       </Switch>
       </BrowserRouter>
