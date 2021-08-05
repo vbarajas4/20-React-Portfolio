@@ -288,16 +288,15 @@ Resume Page
 
 ## Important Links 
 
-GitHub Repository Link
-https://github.com/vbarajas4/02-Advanced-CSS-Portfolio
-
-Link to GitHub deployed Webpage 
-https://vbarajas4.github.io/02-Advanced-CSS-Portfolio/
+[GitHub Repository Link](https://github.com/vbarajas4/20-react-portfolio)
+[Link to GitHub deployed Webpage](https://vbarajas4.github.io/)
 
 ## Framework/Technolgies
 
 React
 Bootstrap
+fontaweesome
+coolers
 
 
 ## Contact Information
