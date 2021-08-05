@@ -7,7 +7,7 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
-//import Wrapper from './components/Wrapper';
+
 
   
 function App() {
@@ -16,17 +16,18 @@ function App() {
   
   return (
     <div id='app'>
-      <Nav />
+      
       <BrowserRouter basename={ process.env.PUBLIC_URL }>
+      <Nav />
       <Switch>
-      <Route path='/' exact><About/></Route> 
-      <Route path='/portfolio' ><Portfolio/></Route>
-      <Route path='/contact' ><Contact/></Route>
-      <Route path='/resume'><Resume/></Route>
+      <Route path='/' exact component={ About }></Route> 
+      <Route path='/portfolio' component={ Portfolio } ></Route>
+      <Route path='/contact' component={ Contact }></Route>
+      <Route path='/resume'component={ Resume }></Route>
       <Route component = { About }></Route>
       </Switch>
-      </BrowserRouter>
       <Footer />
+      </BrowserRouter>
     </div>
   );
 }
