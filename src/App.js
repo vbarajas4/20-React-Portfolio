@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Route } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import About from "./components/pages/About";
@@ -17,10 +17,10 @@ function App() {
   return (
     <div id='app'>
       <Nav />
-      <Route path='/' exact><About/></Route> 
-      <Route path='/portfolio' exact><Portfolio/></Route>
-      <Route path='/contact' exact><Contact/></Route>
-      <Route path='/resume' exact><Resume/></Route>
+      <HashRouter path='/' exact><About/></HashRouter> 
+      <HashRouter path='/portfolio' exact><Portfolio/></HashRouter>
+      <HashRouter path='/contact' exact><Contact/></HashRouter>
+      <HashRouter path='/resume' exact><Resume/></HashRouter>
       <Footer />
     </div>
   );
